@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountryFileNatureFinds.Web", "src\CountryFileNatureFinds.Web\CountryFileNatureFinds.Web.csproj", "{D5E728EC-073B-48AD-B29D-F087D33BE490}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CountryFileNatureFinds.Build", "src\CountryFileNatureFinds.Build\CountryFileNatureFinds.Build.csproj", "{75BFBC7B-6BB4-4266-989A-6B695DADE750}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
