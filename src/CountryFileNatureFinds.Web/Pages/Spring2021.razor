@@ -23,7 +23,7 @@
 
     protected override async Task OnInitializedAsync()
     {
-        var data = await _httpClient.GetStringAsync("/data/spring2021.json");
+        var data = await _httpClient.GetStringAsync("/countryfilenaturefinds/data/spring2021.json");
 
         _finds = data.Deserialise<List<Find>>();
         
