@@ -80,6 +80,6 @@ class Build : NukeBuild
         .DependsOn(Publish)
         .Executes(() =>
         {
-            CopyDirectoryRecursively(Wwwwroot, Docs, DirectoryExistsPolicy.Merge);
+            CopyDirectoryRecursively(Wwwwroot, Docs, DirectoryExistsPolicy.Merge, FileExistsPolicy.Overwrite);
         });
 }
