@@ -1,6 +1,6 @@
 using System.Text.Json;
 
-namespace CountryFileNatureFinds
+namespace CountryFileNatureFinds.Web
 {
     public static class SerializerExtensions
     {

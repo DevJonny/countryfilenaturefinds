@@ -1,4 +1,4 @@
-namespace CountryFileNatureFinds.ViewModels
+namespace CountryFileNatureFinds.Web.ViewModels
 {
     public record Image
     {
