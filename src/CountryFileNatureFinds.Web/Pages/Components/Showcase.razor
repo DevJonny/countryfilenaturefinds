@@ -22,7 +22,7 @@
     
     protected override async Task OnInitializedAsync()
     {
-        var data = await _httpClient.GetStringAsync($"{_config.BaseAddress}/data/spring2021-showcase.json");
+        var data = await _httpClient.GetStringAsync($"data/spring2021-showcase.json");
 
         _showcaseItems = data.Deserialise<List<ShowcaseItem>>();
 
