@@ -17,11 +17,6 @@ namespace CountryFileNatureFinds.Web
             {
                 BaseAddress = new Uri(builder.HostEnvironment.BaseAddress)
             });
-            
-            builder.Services.AddSingleton(new Config
-            {
-                BaseAddress = "countryfilenaturefinds"
-            });
 
             await builder.Build().RunAsync();
         }

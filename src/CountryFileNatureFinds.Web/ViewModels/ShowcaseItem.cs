@@ -12,6 +12,6 @@ namespace CountryFileNatureFinds.Web.ViewModels
     {
         public string Link { get; set; }
         public string Photographer { get; set; }
-        public string FormattedLink(string baseAddress) => $"{baseAddress}/data/spring2021-showcase/{Link}";
+        public string FormattedLink => $"/data/spring2021-showcase/{Link}";
     }
 }
