@@ -1,0 +1,31 @@
+@foreach (var item in _showcaseItems)
+{
+    <h2>@item.Name</h2>
+    <div class="card-deck">
+        @foreach(var photo in item.Photos)
+        {
+            <div class="card">
+                <img src="@photo.FormattedLink(_config.BaseAddress)"/>
+                <div class="card-body">
+                    <p class="card-text"><small class="text-muted">Photo by @photo.Photographer</small></p>
+                </div>
+            </div>
+        }
+    </div> 
+}
+
+@code {
+    [Inject] HttpClient _httpClient { get; set; }
+    [Inject] Config _config { get; set; }
+
+    List<ShowcaseItem> _showcaseItems = new();
+    
+    protected override async Task OnInitializedAsync()
+    {
+        var data = await _httpClient.GetStringAsync($"{_config.BaseAddress}/data/spring2021-showcase.json");
+
+        _showcaseItems = data.Deserialise<List<ShowcaseItem>>();
+
+        await base.OnInitializedAsync();
+    }
+}
