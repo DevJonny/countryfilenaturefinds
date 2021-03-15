@@ -6,7 +6,7 @@
     @foreach (var find in _finds)
     {
         <div class="card">
-            <img src="/countryfilenaturefinds/@find.FirstImageUri" class="card-img-top" alt="@find.Name">
+            <img src="@find.FirstImageUri" class="card-img-top" alt="@find.Name">
             <div class="card-body">
                 <h5 class="card-title">@find.Name</h5>
                 <p class="card-text">@find.Description</p>
@@ -23,7 +23,7 @@
 
     protected override async Task OnInitializedAsync()
     {
-        var data = await _httpClient.GetStringAsync("/countryfilenaturefinds/data/spring2021.json");
+        var data = await _httpClient.GetStringAsync("data/spring2021.json");
 
         _finds = data.Deserialise<List<Find>>();
         
