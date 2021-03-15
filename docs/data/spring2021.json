@@ -5,7 +5,7 @@
     "images": [
       {
         "name": "Stock",
-        "link": "/data/spring2021-images/forget-me-nots.jpeg"
+        "link": "data/spring2021-images/forget-me-nots.jpeg"
       }
     ]
   },
@@ -15,7 +15,7 @@
     "images": [
       {
         "name": "Stock",
-        "link": "/data/spring2021-showcase/narcissi-pa.jpeg"
+        "link": "data/spring2021-showcase/narcissi-pa.jpeg"
       }
     ]
   },
@@ -25,7 +25,7 @@
     "images": [
       {
         "name": "Stock",
-        "link": "/data/spring2021-images/jasmine.jpeg"
+        "link": "data/spring2021-images/jasmine.jpeg"
       }
     ]
   },
@@ -35,7 +35,7 @@
     "images": [
       {
         "name": "Stock",
-        "link": "/data/spring2021-showcase/earthworm-castings-han.jpeg"
+        "link": "data/spring2021-showcase/earthworm-castings-han.jpeg"
       }
     ]
   },
@@ -45,7 +45,7 @@
     "images": [
       {
         "name": "Stock",
-        "link": "/data/spring2021-images/snail-shell.jpeg"
+        "link": "data/spring2021-images/snail-shell.jpeg"
       }
     ]
   },
@@ -55,7 +55,7 @@
     "images": [
       {
         "name": "Stock",
-        "link": "/data/spring2021-images/sweet-violets.jpeg"
+        "link": "data/spring2021-images/sweet-violets.jpeg"
       }
     ]
   },
@@ -65,7 +65,7 @@
     "images": [
       {
         "name": "Stock",
-        "link": "/data/spring2021-images/herb-robert.jpeg"
+        "link": "data/spring2021-images/herb-robert.jpeg"
       }
     ]
   },
@@ -75,7 +75,7 @@
     "images": [
       {
         "name": "Stock",
-        "link": "/data/spring2021-images/pussy-willow.jpeg"
+        "link": "data/spring2021-images/pussy-willow.jpeg"
       }
     ]
   },
@@ -85,7 +85,7 @@
     "images": [
       {
         "name": "Stock",
-        "link": "/data/spring2021-images/hawthorn-leaves.jpeg"
+        "link": "data/spring2021-images/hawthorn-leaves.jpeg"
       }
     ]
   },
@@ -95,7 +95,7 @@
     "images": [
       {
         "name": "Stock",
-        "link": "/data/spring2021-showcase/blackthorn-han.jpeg"
+        "link": "data/spring2021-showcase/blackthorn-han.jpeg"
       }
     ]
   },
@@ -105,7 +105,7 @@
     "images": [
       {
         "name": "Stock",
-        "link": "/data/spring2021-showcase/cleaver-pa.jpeg"
+        "link": "data/spring2021-showcase/cleaver-pa.jpeg"
       }
     ]
   },
@@ -115,7 +115,7 @@
     "images": [
       {
         "name": "Stock",
-        "link": "/data/spring2021-images/dandelion.png"
+        "link": "data/spring2021-images/dandelion.png"
       }
     ]
   },
@@ -125,7 +125,7 @@
     "images": [
       {
         "name": "Stock",
-        "link": "/data/spring2021-images/wild-garlic.jpeg"
+        "link": "data/spring2021-images/wild-garlic.jpeg"
       }
     ]
   },
@@ -135,7 +135,7 @@
     "images": [
       {
         "name": "Stock",
-        "link": "/data/spring2021-images/mallard-quills.jpeg"
+        "link": "data/spring2021-images/mallard-quills.jpeg"
       }
     ]
   },
@@ -145,7 +145,7 @@
     "images": [
       {
         "name": "Stock",
-        "link": "/data/spring2021-showcase/hazel-catkins-b.jpeg"
+        "link": "data/spring2021-showcase/hazel-catkins-b.jpeg"
       }
     ]
   },
@@ -155,7 +155,7 @@
     "images": [
       {
         "name": "Stock",
-        "link": "/data/spring2021-images/blue-eggshell-fragments.jpeg"
+        "link": "data/spring2021-images/blue-eggshell-fragments.jpeg"
       }
     ]
   },
@@ -165,7 +165,7 @@
     "images": [
       {
         "name": "Stock",
-        "link": "/data/spring2021-images/white-eggshell-fragments.jpeg"
+        "link": "data/spring2021-images/white-eggshell-fragments.jpeg"
       }
     ]
   },
@@ -175,7 +175,7 @@
     "images": [
       {
         "name": "Stock",
-        "link": "/data/spring2021-images/magnolia-petals.jpeg"
+        "link": "data/spring2021-images/magnolia-petals.jpeg"
       }
     ]
   },
@@ -185,7 +185,7 @@
     "images": [
       {
         "name": "Stock",
-        "link": "/data/spring2021-images/fieldstones.jpeg"
+        "link": "data/spring2021-images/fieldstones.jpeg"
       }
     ]
   },
@@ -195,7 +195,7 @@
     "images": [
       {
         "name": "Stock",
-        "link": "/data/spring2021-images/european-ash-buds.jpeg"
+        "link": "data/spring2021-images/european-ash-buds.jpeg"
       }
     ]
   },
@@ -205,7 +205,7 @@
     "images": [
       {
         "name": "Stock",
-        "link": "/data/spring2021-images/alder-buds.jpeg"
+        "link": "data/spring2021-images/alder-buds.jpeg"
       }
     ]
   },
@@ -215,7 +215,7 @@
     "images": [
       {
         "name": "Stock",
-        "link": "/data/spring2021-images/chrysalis-cases.jpeg"
+        "link": "data/spring2021-images/chrysalis-cases.jpeg"
       }
     ]
   },
@@ -225,7 +225,7 @@
     "images": [
       {
         "name": "Stock",
-        "link": "/data/spring2021-images/cacoons.jpeg"
+        "link": "data/spring2021-images/cacoons.jpeg"
       }
     ]
   },
@@ -235,7 +235,7 @@
     "images": [
       {
         "name": "Stock",
-        "link": "/data/spring2021-images/fiddlehead-ferns.jpeg"
+        "link": "data/spring2021-images/fiddlehead-ferns.jpeg"
       }
     ]
   },
@@ -245,7 +245,7 @@
     "images": [
       {
         "name": "Stock",
-        "link": "/data/spring2021-images/cow-parsley.jpeg"
+        "link": "data/spring2021-images/cow-parsley.jpeg"
       }
     ]
   }
