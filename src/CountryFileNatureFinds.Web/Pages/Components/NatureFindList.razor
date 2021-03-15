@@ -1,0 +1,28 @@
+<div class="card-columns">
+    @foreach (var find in _finds)
+    {
+        <div class="card">
+            <img src="@find.FirstImageUri" class="card-img-top" alt="@find.Name">
+            <div class="card-body">
+                <h5 class="card-title">@find.Name</h5>
+                <p class="card-text">@find.Description</p>
+            </div>
+        </div>   
+    }
+</div>
+
+@code
+{
+    [Inject] HttpClient _httpClient { get; set; }
+    
+    private List<Find> _finds = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        var data = await _httpClient.GetStringAsync("data/spring2021.json");
+
+        _finds = data.Deserialise<List<Find>>();
+
+        await base.OnInitializedAsync();
+    }
+}
