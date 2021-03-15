@@ -10,12 +10,12 @@
     ]
   },
   {
-    "name": "Narcissi",
+    "name": "Narcissi (Photo by Pa)",
     "description": "pdissect into sepals, petals, corona, stamen, anthers and spathe",
     "images": [
       {
         "name": "Stock",
-        "link": "/data/spring2021-images/narcissus.jpeg"
+        "link": "/data/spring2021-showcase/narcissi-pa.jpeg"
       }
     ]
   },
@@ -30,12 +30,12 @@
     ]
   },
   {
-    "name": "Earthworm Castings",
+    "name": "Earthworm Castings (Photo by Han)",
     "description": "a sign that earthworms are tilling and fertilising the soil.",
     "images": [
       {
         "name": "Stock",
-        "link": "/data/spring2021-images/earthworm-castings.png"
+        "link": "/data/spring2021-showcase/earthworm-castings-han.jpeg"
       }
     ]
   },
@@ -90,22 +90,22 @@
     ]
   },
   {
-    "name": "Blackthorn",
+    "name": "Blackthorn (Photo by Han)",
     "description": "creamy white flowers appear before leaves. Return in autumn for sloes.",
     "images": [
       {
         "name": "Stock",
-        "link": "/data/spring2021-images/blackthorn.jpeg"
+        "link": "/data/spring2021-showcase/blackthorn-han.jpeg"
       }
     ]
   },
   {
-    "name": "Cleavers (Goosegrass)",
+    "name": "Cleavers (Goosegrass) (Photo by Pa)",
     "description": "weave the sticky stems to make a primitive strainer for liquids.",
     "images": [
       {
         "name": "Stock",
-        "link": "/data/spring2021-images/cleavers.png"
+        "link": "/data/spring2021-showcase/cleaver-pa.jpeg"
       }
     ]
   },
@@ -140,12 +140,12 @@
     ]
   },
   {
-    "name": "Hazel Catkins",
+    "name": "Hazel Catkins (Photo by B)",
     "description": "spot hazel trees in hedgerows and on chalky soils by their golden tassels.",
     "images": [
       {
         "name": "Stock",
-        "link": "/data/spring2021-images/hazel-catkins.jpeg"
+        "link": "/data/spring2021-showcase/hazel-catkins-b.jpeg"
       }
     ]
   },
