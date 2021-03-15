@@ -351,6 +351,3 @@ MigrationBackup/
 
 # Jetbrains
 .idea/
-
-# OSX
-**/.DS_STORE*
