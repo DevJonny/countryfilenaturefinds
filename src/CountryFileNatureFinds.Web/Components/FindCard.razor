@@ -1,0 +1,13 @@
+<div class="card">
+    <img src="@Find.FirstImageUri" class="card-img-top" alt="@Find.Name">
+    <div class="card-body">
+        <h5 class="card-title">@Find.Name</h5>
+        <p class="card-text">@Find.Description</p>
+    </div>
+</div>
+
+@code {
+    
+    [Parameter]
+    public Find Find { get; set; }
+}

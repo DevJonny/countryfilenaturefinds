@@ -9,13 +9,7 @@
 <div class="card-columns">
     @foreach (var find in _finds)
     {
-        <div class="card">
-            <img src="@find.FirstImageUri" class="card-img-top" alt="@find.Name">
-            <div class="card-body">
-                <h5 class="card-title">@find.Name</h5>
-                <p class="card-text">@find.Description</p>
-            </div>
-        </div>   
+        <FindCard Find="@find" />   
     }
 </div>
 
