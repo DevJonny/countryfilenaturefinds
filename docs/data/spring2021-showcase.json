@@ -32,6 +32,10 @@
       {
         "link": "blackthorn-han.jpeg",
         "photographer": "Hannah"
+      },
+      {
+        "link": "blackthorn-jonny.jpeg",
+        "photographer": "Jonny"
       }
     ]
   },
@@ -40,6 +44,28 @@
     "photos": [
       {
         "link": "earthworm-castings-han.jpeg",
+        "photographer": "Hannah"
+      },
+      {
+        "link": "earthworm-castings-jonny.jpeg",
+        "photographer": "Jonny"
+      }
+    ]
+  },
+  {
+    "name": "Wild Garlic",
+    "photos": [
+      {
+        "link": "wild-garlic-nina.jpeg",
+        "photographer": "Nina"
+      }
+    ]
+  },
+  {
+    "name": "Pussy Willow",
+    "photos": [
+      {
+        "link": "pussy-willow-han.jpeg",
         "photographer": "Hannah"
       }
     ]
