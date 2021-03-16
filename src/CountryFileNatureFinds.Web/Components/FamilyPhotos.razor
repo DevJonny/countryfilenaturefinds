@@ -1,0 +1,33 @@
+<div class="card">
+    @foreach (var photoSection in _familyPhotoSections)
+    {
+        <div class="card">
+            <div class="card-header">
+                @photoSection.Name
+            </div>
+            <div class="card-body">
+                <div class="card-deck">
+                    @foreach(var photo in photoSection.Photos)
+                    {
+                        <FamilyPhoto Photo="@photo" />
+                    }
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+@code {
+    [Inject] HttpClient _httpClient { get; set; }
+
+    List<FamilyPhotoSection> _familyPhotoSections = new();
+    
+    protected override async Task OnInitializedAsync()
+    {
+        var data = await _httpClient.GetStringAsync("data/spring2021-showcase.json");
+
+        _familyPhotoSections = data.Deserialise<List<FamilyPhotoSection>>();
+
+        await base.OnInitializedAsync();
+    }
+}

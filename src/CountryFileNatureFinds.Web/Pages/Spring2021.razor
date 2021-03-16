@@ -6,27 +6,29 @@
   </div>
 </div>
 
-<div class="card-columns">
-    @foreach (var find in _finds)
-    {
-        <FindCard Find="@find" />   
-    }
-</div>
+<ul class="nav nav-tabs">
+  <li class="nav-item">
+    <a class="@TabStyle(ShowFinds)" href="#" @onclick="@ToggleFindsVisibility">Nature Finds</a>
+  </li>
+  <li class="nav-item">
+    <a class="@TabStyle(!ShowFinds)" href="#" @onclick="@ToggleFindsVisibility">Family Photos</a>
+  </li>
+</ul>
+
+@if (ShowFinds)
+{
+  <Finds />
+}
+else
+{
+  <FamilyPhotos />
+}
 
 @code
 {
-    [Inject] HttpClient _httpClient { get; set; }
-    
-    private List<Find> _finds = new();
+  bool ShowFinds { get; set; } = true;
 
-    protected override async Task OnInitializedAsync()
-    {
-        var data = await _httpClient.GetStringAsync("data/spring2021.json");
-
-        _finds = data.Deserialise<List<Find>>();
-        
-        Console.WriteLine(_finds[0].Name);
-        
-        await base.OnInitializedAsync();
-    }
+  string TabStyle(bool isActive) => isActive ? "nav-link active" : "nav-link"; 
+  void ToggleFindsVisibility() => ShowFinds = !ShowFinds;
+  
 }
