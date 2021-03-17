@@ -10,7 +10,7 @@
     ]
   },
   {
-    "name": "Narcissi (Photo by Pa)",
+    "name": "Narcissi (Photo by Michael)",
     "description": "pdissect into sepals, petals, corona, stamen, anthers and spathe",
     "images": [
       {
@@ -70,12 +70,12 @@
     ]
   },
   {
-    "name": "Pussy Willow",
+    "name": "Pussy Willow (Photo by Han)",
     "description": "pretty silky grey catkins found on goat or grey willow.",
     "images": [
       {
         "name": "Stock",
-        "link": "data/spring2021-images/pussy-willow.jpeg"
+        "link": "data/spring2021-showcase/pussy-willow-han.jpeg"
       }
     ]
   },
@@ -100,7 +100,7 @@
     ]
   },
   {
-    "name": "Cleavers (Goosegrass) (Photo by Pa)",
+    "name": "Cleavers (Photo by Michael)",
     "description": "weave the sticky stems to make a primitive strainer for liquids.",
     "images": [
       {
@@ -140,7 +140,7 @@
     ]
   },
   {
-    "name": "Hazel Catkins (Photo by B)",
+    "name": "Hazel Catkins (Photo by Bryony)",
     "description": "spot hazel trees in hedgerows and on chalky soils by their golden tassels.",
     "images": [
       {
