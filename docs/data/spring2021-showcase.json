@@ -67,6 +67,50 @@
       {
         "link": "pussy-willow-han.jpeg",
         "photographer": "Hannah"
+      },
+      {
+        "link": "pussy-willow-jonny.jpg",
+        "photographer": "Jonny"
+      }
+    ]
+  },
+  {
+    "name": "Hawthorn Leaves",
+    "photos": [
+      {
+        "link": "hawthorn-leaves-laura.jpeg",
+        "photographer": "Laura"
+      },
+      {
+        "link": "hawthorn-leaves-b.jpeg",
+        "photographer": "Bryony"
+      }
+    ]
+  },
+  {
+    "name": "Herb Robert",
+    "photos": [
+      {
+        "link": "herb-robert-nina.jpeg",
+        "photographer": "Nina"
+      }
+    ]
+  },
+  {
+    "name": "Sweet Violets",
+    "photos": [
+      {
+        "link": "sweet-violets-ma.jpeg",
+        "photographer": "Penny"
+      }
+    ]
+  },
+  {
+    "name": "Magnolia Petals",
+    "photos": [
+      {
+        "link": "magnolia-petals-pa.jpeg",
+        "photographer": "Michael"
       }
     ]
   }
