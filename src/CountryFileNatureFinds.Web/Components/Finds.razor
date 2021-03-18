@@ -15,7 +15,7 @@
 
     protected override async Task OnInitializedAsync()
     {
-        var data = await _httpClient.GetStringAsync("data/spring2021.json");
+        var data = await _httpClient.GetStringAsync($"data/spring2021.json?cb={Guid.NewGuid()}");
 
         _finds = data.Deserialise<List<Find>>();
         

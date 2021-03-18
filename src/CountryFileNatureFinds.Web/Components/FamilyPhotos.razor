@@ -6,7 +6,7 @@
                 @photoSection.Name
             </div>
             <div class="card-body">
-                <div class="card-deck">
+                <div class="card-group">
                     @foreach(var photo in photoSection.Photos)
                     {
                         <FamilyPhoto Photo="@photo" />
@@ -24,7 +24,7 @@
     
     protected override async Task OnInitializedAsync()
     {
-        var data = await _httpClient.GetStringAsync("data/spring2021-showcase.json");
+        var data = await _httpClient.GetStringAsync($"data/spring2021-showcase.json?cb={Guid.NewGuid()}");
 
         _familyPhotoSections = data.Deserialise<List<FamilyPhotoSection>>();
 
