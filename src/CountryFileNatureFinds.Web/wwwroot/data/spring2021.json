@@ -40,12 +40,12 @@
     ]
   },
   {
-    "name": "Snail Shells",
+    "name": "Snail Shells (Photo by Pa)",
     "description": "almost always right-coiled.",
     "images": [
       {
         "name": "Stock",
-        "link": "data/spring2021-images/snail-shell.jpeg"
+        "link": "data/spring2021-showcase/snail-shells-pa.jpeg"
       }
     ]
   },
@@ -100,7 +100,7 @@
     ]
   },
   {
-    "name": "Cleavers (Photo by Michael)",
+    "name": "Cleavers (Photo by Pa)",
     "description": "weave the sticky stems to make a primitive strainer for liquids.",
     "images": [
       {
@@ -190,22 +190,22 @@
     ]
   },
   {
-    "name": "European Ash Buds",
+    "name": "European Ash Buds (Photo by Jonny)",
     "description": "black, rounded and in opposite pairs. Get to know your buds.",
     "images": [
       {
         "name": "Stock",
-        "link": "data/spring2021-images/european-ash-buds.jpeg"
+        "link": "data/spring2021-showcase/european-ash-buds-jonny.jpeg"
       }
     ]
   },
   {
-    "name": "Alder Buds",
+    "name": "Alder Buds (Photo by Ma)",
     "description": "mauve and oblong from a common riverside tree.",
     "images": [
       {
         "name": "Stock",
-        "link": "data/spring2021-images/alder-buds.jpeg"
+        "link": "data/spring2021-showcase/alder-buds-ma.jpeg"
       }
     ]
   },
