@@ -18,6 +18,10 @@
       {
         "link": "hazel-catkins-b.jpeg",
         "photographer": "B"
+      },
+      {
+        "link": "hazel-catkins-han.jpeg",
+        "photographer": "Hannah"
       }
     ]
   },
@@ -27,6 +31,10 @@
       {
         "link": "cleaver-pa.jpeg",
         "photographer": "Pa"
+      },
+      {
+        "link": "cleaver-han.jpeg",
+        "photographer": "Hannah"
       }
     ]
   },
@@ -92,6 +100,10 @@
       {
         "link": "hawthorn-leaves-b.jpeg",
         "photographer": "Bryony"
+      },
+      {
+        "link": "hawthorn-leaves-han.jpeg",
+        "photographer": "Hannah"
       }
     ]
   },
@@ -146,6 +158,10 @@
       {
         "link": "snail-shells-pa.jpeg",
         "photographer": "Pa"
+      },
+      {
+        "link": "snail-shells-han.jpeg",
+        "photographer": "Hannah"
       }
     ]
   }
