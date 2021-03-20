@@ -22,6 +22,10 @@
       {
         "link": "hazel-catkins-han.jpeg",
         "photographer": "Hannah"
+      },
+      {
+        "link": "hazel-catkins-jonny.jpeg",
+        "photographer": "Jonny"
       }
     ]
   },
@@ -35,6 +39,10 @@
       {
         "link": "cleaver-han.jpeg",
         "photographer": "Hannah"
+      },
+      {
+        "link": "cleaver-jonny.jpeg",
+        "photographer": "Jonny"
       }
     ]
   },
@@ -140,6 +148,10 @@
       {
         "link": "alder-buds-ma.jpeg",
         "photographer": "Ma"
+      },
+      {
+        "link": "alder-buds-jonny.jpeg",
+        "photographer": "Jonny"
       }
     ]
   },
@@ -162,6 +174,23 @@
       {
         "link": "snail-shells-han.jpeg",
         "photographer": "Hannah"
+      },
+      {
+        "link": "snail-shells-jonny.jpeg",
+        "photographer": "Jonny"
+      }
+    ]
+  },
+  {
+    "name": "Field Stones",
+    "photos": [
+      {
+        "link": "field-stones-han.jpeg",
+        "photographer": "Hannah"
+      },
+      {
+        "link": "field-stones-jonny.jpeg",
+        "photographer": "Jonny"
       }
     ]
   }

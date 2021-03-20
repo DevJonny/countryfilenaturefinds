@@ -6,6 +6,6 @@ namespace CountryFileNatureFinds.Web.ViewModels
     {
         public string Link { get; set; }
         public string Photographer { get; set; }
-        public string FormattedLink() => $"data/spring2021-showcase/{Link}?cb={Guid.NewGuid()}";
+        public string FormattedLink() => $"data/spring2021-showcase/{Link}";
     }
 }
