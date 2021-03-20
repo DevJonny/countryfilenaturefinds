@@ -6,12 +6,10 @@
                 @photoSection.Name
             </div>
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12">
-                    @foreach(var photo in photoSection.Photos)
-                    {
-                        <FamilyPhoto Photo="@photo" />
-                    }
-                </div>
+                @foreach(var photo in photoSection.Photos)
+                {
+                    <FamilyPhoto Photo="@photo" />
+                }
             </div>
         </div>
     }
