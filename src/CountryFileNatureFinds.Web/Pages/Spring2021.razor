@@ -9,28 +9,34 @@
 <ul class="nav nav-tabs">
   <li class="nav-item">
     <h3>
-      <a class="@TabStyle(ShowFinds)" href="#" @onclick="@ToggleFindsVisibility">Nature Finds</a>
+      <a class="@TabStyle(Page.Finds)" href="#" @onclick="@(() => CurrentPage = Page.Finds)">Nature Finds</a>
     </h3>
   </li>
   <li class="nav-item">
-    <h3><a class="@TabStyle(!ShowFinds)" href="#" @onclick="@ToggleFindsVisibility">Family Photos</a></h3>
+    <h3><a class="@TabStyle(Page.FamilyPhotos)" href="#" @onclick="@(() => CurrentPage = Page.FamilyPhotos)">Family Photos</a></h3>
+  </li>
+  <li class="nav-item">
+    <h3><a class="@TabStyle(Page.Checklist)" href="#" @onclick="@(() => CurrentPage = Page.Checklist)">Checklist</a></h3>
   </li>
 </ul>
 
-@if (ShowFinds)
+@if (CurrentPage is Page.Finds)
 {
   <Finds />
 }
-else
+else if (CurrentPage is Page.FamilyPhotos)
 {
   <FamilyPhotos />
+}
+else if (CurrentPage is Page.Checklist)
+{
+  <Checklist />
 }
 
 @code
 {
-  bool ShowFinds { get; set; } = true;
+  Page CurrentPage { get; set; }
 
-  string TabStyle(bool isActive) => isActive ? "nav-link active" : "nav-link"; 
-  void ToggleFindsVisibility() => ShowFinds = !ShowFinds;
-  
+  string TabStyle(Page page) => CurrentPage == page ? "nav-link active" : "nav-link";
+
 }
